@@ -1,0 +1,78 @@
+
+body{
+    background-color: #000;
+}
+.container{
+    margin-top:11px !important;
+}
+
+.row{
+    display: flex;
+}
+
+.card{
+    border: none;
+     outline: none;
+     background-color: #fff;
+     border-radius: 20px;
+}
+
+.card:hover{
+    transform:translate(-15px);
+    transition:transform .3s;
+}
+.text1{
+    font-size: 13px;
+    color: #cbcbcb;
+}
+
+.info{
+    line-height: 17px;
+}
+
+.star{
+    color: #fbc02d;
+} 
+
+/* card 1 */
+.cost span{
+    color:#fb3531;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.shoe1{
+    background: #dc3545;
+}
+
+/* card 2 */
+.cost span{
+    color: #286783;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.shoe2{
+    background: #286783;
+}
+
+/* card 3 */
+.cost span{
+    color:#252842;
+    font-weight: bold;
+    font-size: 20px;
+}
+.shoe3{
+    background: #00b268;
+}
+
+.shoe1:hover, .shoe2:hover, .shoe3:hover{
+    opacity: .8;
+}
+
+
+.cursor{
+    cursor: pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
